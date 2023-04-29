@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+img {
+  background-color: red;
+  border-radius: 0% 0% 0% 100%;
+  /* overflow: hidden; */
+  position: absolute;
+  /* left: 16px; */
+  right: 0px;
+}
+.overlay {
+  background: radial-gradient(black, transparent);
+  opacity: 69%;
+  width: 81%;
+  height: 148%;
+  position: absolute;
+  right: 0;
+  border-radius: 0% 2% 5% 100%;
+}
+.content {
+  position: absolute;
+}
